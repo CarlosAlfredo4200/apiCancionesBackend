@@ -1,0 +1,16 @@
+npm run dev
+2 listo
+
+Atento a la configuracion de sqlserver en windows
+
+toco instalar :npm i tedious para Sequelize y modificar: clase 24 
+
+const sequelize = new Sequelize(database, username, password, {
+  host,
+  dialect: "mssql",
+  dialectOptions:{
+    options:{
+      encrypt:true,
+    }
+  }
+});

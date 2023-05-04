@@ -1,0 +1,4 @@
+node_modules/
+.env
+
+mongodb+srv://carlosApiCanciones:juanma4200@cluster0.lqrbhgb.mongodb.net/dbapicanciones?retryWrites=true&w=majority
